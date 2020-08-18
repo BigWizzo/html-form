@@ -57,3 +57,9 @@ body{
     cursor: pointer;
     font-weight: 500;
   }
+
+  /* intuit logo and icons starts here */
+/* ************************************************************************** */
+.intuit > img{
+  height: 75px;
+}
