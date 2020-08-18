@@ -1,94 +1,89 @@
 body {
-    background: #eceef1;
-    color: #4c4c4c;
-    font-family:
-      "AvenirNext",
-      Avenir,
-      "Helvetica Neue",
-      Helvetica,
-      Arial,
-      sans-serif;
-  }
-  
-  /* Grid container starts here */
-  
-  /* *********************************************************************************** */
-  
-  .intuit {
-    grid-area: intuit;
-  }
-  
-  .grid-container {
-    display: grid;
-    grid-template-areas:
-      "navbar"
-      "intuit"
-      "icon-col"
-      "form-col"
-      "footer";
-  }
-  
-  .grid-container > div {
-    text-align: center;
-  }
-  
-  /* navbar starts here */
-  
-  /* *************************************************************************************** */
-  .navbar {
-    grid-area: navbar;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    margin: 0 30px;
-  }
-  
-  .navbar > div {
-    padding: 10px 5px;
-  }
-  
-  .footer > span {
-    font-size: 12px;
-  }
-  
-  .navbar > div > span {
-    font-size: 12px;
-  }
-  
-  .navbar > div > button {
-    background: #0077c5;
-    padding: 10px 20px;
-    color: #fff;
-    text-transform: capitalize;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: 500;
-  }
+  background: #eceef1;
+  color: #4c4c4c;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
 
-  /* intuit logo and icons starts here */
+/* Grid container starts here */
+
+/* *********************************************************************************** */
+
+.intuit {
+  grid-area: intuit;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "navbar"
+    "intuit"
+    "icon-col"
+    "form-col"
+    "footer";
+}
+
+.grid-container > div {
+  text-align: center;
+}
+
+/* navbar starts here */
+
+/* *************************************************************************************** */
+.navbar {
+  grid-area: navbar;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 30px;
+}
+
+.navbar > div {
+  padding: 10px 5px;
+}
+
+.footer > span {
+  font-size: 12px;
+}
+
+.navbar > div > span {
+  font-size: 12px;
+}
+
+.navbar > div > button {
+  background: #0077c5;
+  padding: 10px 20px;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* intuit logo and icons starts here */
 
 /* ************************************************************************** */
 .intuit > img {
-    height: 75px;
-  }
-  
-  .icon-col {
-    grid-area: icon-col;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px;
-    color: #eceef1;
-    font-size: 18px;
-  }
-  
-  .icon-col > img {
-    height: 23px;
-  }
+  height: 75px;
+}
 
-  /* form starts here */
+.icon-col {
+  grid-area: icon-col;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  color: #eceef1;
+  font-size: 18px;
+}
+
+.icon-col > img {
+  height: 23px;
+}
+
+/* form starts here */
 
 /* ******************************************************************** */
 .form-col {
@@ -180,4 +175,18 @@ body {
 .form-col > form > div.form-footer > p {
   font-size: 10px;
   color: #8d9096;
+}
+
+/* footer starts here */
+
+/* *************************************************************************** */
+
+.footer {
+  grid-area: footer;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.footer > p > a:hover {
+  text-decoration: underline;
 }
