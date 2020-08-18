@@ -29,7 +29,7 @@
 > install linters on your IDE.
 
 ### Setup
-> ``` git clone https://github.com/BigWizzo/youtube-clone.git ```
+> ``` git clone https://github.com/BigWizzo/html-form.git ```
 
 ### Usage
 > Open the index.html from your browser.
