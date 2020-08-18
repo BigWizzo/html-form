@@ -1,0 +1,68 @@
+body {
+    background: #eceef1;
+    color: #4c4c4c;
+    font-family:
+      "AvenirNext",
+      Avenir,
+      "Helvetica Neue",
+      Helvetica,
+      Arial,
+      sans-serif;
+  }
+  
+  /* Grid container starts here */
+  
+  /* *********************************************************************************** */
+  
+  .intuit {
+    grid-area: intuit;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "navbar"
+      "intuit"
+      "icon-col"
+      "form-col"
+      "footer";
+  }
+  
+  .grid-container > div {
+    text-align: center;
+  }
+  
+  /* navbar starts here */
+  
+  /* *************************************************************************************** */
+  .navbar {
+    grid-area: navbar;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 30px;
+  }
+  
+  .navbar > div {
+    padding: 10px 5px;
+  }
+  
+  .footer > span {
+    font-size: 12px;
+  }
+  
+  .navbar > div > span {
+    font-size: 12px;
+  }
+  
+  .navbar > div > button {
+    background: #0077c5;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
