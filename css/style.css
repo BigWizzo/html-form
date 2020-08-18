@@ -160,3 +160,23 @@ text-align: left;
   font-size: 10px;
   color: #8d9096;
 }
+
+/* footer starts here */
+/* *************************************************************************** */
+
+.footer{
+  margin: 0px;
+  padding-bottom: 15px;
+}
+
+.footer > p{
+  margin-bottom: 0px;
+}
+
+.footer > p > a{
+  font-size: 12px;
+}
+
+.footer > span{
+  font-size: 12px;
+}
