@@ -1,0 +1,59 @@
+body{
+    background: #eceef1;
+    color: #4c4c4c;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  /* Grid container starts here */
+  /* *********************************************************************************** */
+  
+  .navbar { grid-area: navbar; }
+  .intuit { grid-area: intuit; }
+  .icon-col { grid-area: icon-col; }
+  .form-col { grid-area: form-col; }
+  .footer { grid-area: footer; }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'navbar'
+      'intuit'
+      'icon-col'
+      'form-col'
+      'footer';
+  }
+  
+  .grid-container > div {
+    text-align: center;
+  }
+  
+  
+  /* navbar starts here */
+  /* *************************************************************************************** */
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px 30px;
+  
+  }
+  
+  .navbar > div{
+    padding: 10px 5px;
+  }
+  
+  .navbar > div > span {
+    font-size: 12px;
+  }
+  
+  .navbar > div > button{
+    background: #0077c5;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
