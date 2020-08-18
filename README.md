@@ -24,5 +24,44 @@
 
 ### Prerequisites
 > Browser
-> Text editor of your choice
-> npm has to be installed in your system
+> Text editor of your choice.
+> npm has to be installed in your system.
+> install linters on your IDE.
+
+### Setup
+> ``` git clone https://github.com/BigWizzo/youtube-clone.git ```
+
+### Usage
+> Open the index.html from your browser.
+
+### Run tests
+Run ``` npx html-validator-cli --quiet --file index.html ``` to run the validator over the ```index.html``` file.
+
+The ```--quiet``` will only list ```errors```. If you also want to see the warnings use the ```--verbose``` flag instead.
+As an alternative, you can also install the ```html5validator``` using ```pip```:
+
+``` 
+pip install --user html5validator
+html5validator index.html
+```
+## Authors
+
+👤 **Author1**
+- Github: [@ojrdev](https://github.com/ojrdev)
+
+👤 **Author2**
+- Github: [@bigwizzo](https://github.com/bigwizzo)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
