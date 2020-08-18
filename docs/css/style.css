@@ -1,66 +1,75 @@
-body{
-    background: #eceef1;
-    color: #4c4c4c;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  
-  /* Grid container starts here */
-  /* *********************************************************************************** */
-  
-  .navbar { grid-area: navbar; }
-  .intuit { grid-area: intuit; }
-  .icon-col { grid-area: icon-col; }
-  .form-col { grid-area: form-col; }
-  .footer { grid-area: footer; }
-  
-  .grid-container {
-    display: grid;
-    grid-template-areas:
-      'navbar'
-      'intuit'
-      'icon-col'
-      'form-col'
-      'footer';
-  }
-  
-  .grid-container > div {
-    text-align: center;
-  }
-  
-  
-  /* navbar starts here */
-  /* *************************************************************************************** */
-  .navbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    margin: 0px 30px;
-  
-  }
-  
-  .navbar > div{
-    padding: 10px 5px;
-  }
-  
-  .navbar > div > span {
-    font-size: 12px;
-  }
-  
-  .navbar > div > button{
-    background: #0077c5;
-    padding: 10px 20px;
-    color: #ffffff;
-    text-transform: capitalize;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: 500;
-  }
+body {
+  background: #eceef1;
+  color: #4c4c4c;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
 
-  /* intuit logo and icons starts here */
+/* Grid container starts here */
+/* *********************************************************************************** */
+
+.navbar {
+  grid-area: navbar;
+}
+.intuit {
+  grid-area: intuit;
+}
+.icon-col {
+  grid-area: icon-col;
+}
+.form-col {
+  grid-area: form-col;
+}
+.footer {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "navbar"
+    "intuit"
+    "icon-col"
+    "form-col"
+    "footer";
+}
+
+.grid-container > div {
+  text-align: center;
+}
+
+/* navbar starts here */
+/* *************************************************************************************** */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0px 30px;
+}
+
+.navbar > div {
+  padding: 10px 5px;
+}
+
+.navbar > div > span {
+  font-size: 12px;
+}
+
+.navbar > div > button {
+  background: #0077c5;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* intuit logo and icons starts here */
 /* ************************************************************************** */
-.intuit > img{
+.intuit > img {
   height: 75px;
 }
 
@@ -77,11 +86,9 @@ body{
   height: 23px;
 }
 
-
-
 /* form starts here */
 /* ******************************************************************** */
-.form-col{
+.form-col {
   display: flex;
   justify-content: center;
 }
@@ -107,7 +114,7 @@ body{
   font-size: 12px;
 }
 
-.form-col > form > div > label{
+.form-col > form > div > label {
   display: block;
   width: 100%;
   padding: 10px;
@@ -115,7 +122,7 @@ body{
   margin-top: 15px;
 }
 
-.form-col > form > div > input{
+.form-col > form > div > input {
   display: inline-block;
   width: 100%;
   padding: 10px 10px;
@@ -123,12 +130,12 @@ body{
   border-radius: 3px;
 }
 
-.form-col > form > div > p.phone-terms{
-font-size: 10px;
-text-align: left;
+.form-col > form > div > p.phone-terms {
+  font-size: 10px;
+  text-align: left;
 }
 
-.form-col > form > div > button{
+.form-col > form > div > button {
   width: 100%;
   padding: 15px 0px;
   margin: 20px 0px;
@@ -136,12 +143,12 @@ text-align: left;
   border-radius: 5px;
   text-transform: capitalize;
   cursor: pointer;
-  background: linear-gradient(to bottom, #5476c9 0%, #0077C5 100%);
+  background: linear-gradient(to bottom, #5476c9 0%, #0077c5 100%);
   color: white;
   font-size: 15px;
 }
 
-.form-col > form > p{
+.form-col > form > p {
   text-align: center;
   font-size: 12px;
   font-style: italic;
@@ -164,25 +171,25 @@ text-align: left;
 /* footer starts here */
 /* *************************************************************************** */
 
-.footer{
+.footer {
   margin: 0px;
   padding-bottom: 15px;
 }
 
-.footer > p{
+.footer > p {
   margin-bottom: 0px;
 }
 
-.footer > p > a{
+.footer > p > a {
   font-size: 12px;
   color: #4c4c4c;
   text-decoration: none;
 }
 
-.footer > p > a:hover{
+.footer > p > a:hover {
   text-decoration: underline;
 }
 
-.footer > span{
+.footer > span {
   font-size: 12px;
 }
