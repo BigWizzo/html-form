@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://)********
+[Live Demo Link](https://bigwizzo.github.io/html-form/)
 
 ## Getting Started
 
@@ -56,7 +56,7 @@ html5validator index.html
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/BigWizzo/html-form/issues).
 
 ## Show your support
 
