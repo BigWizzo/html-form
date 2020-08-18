@@ -1,27 +1,21 @@
 body {
   background: #eceef1;
   color: #4c4c4c;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+  font-family:
+    "AvenirNext",
+    Avenir,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
     sans-serif;
 }
 
 /* Grid container starts here */
+
 /* *********************************************************************************** */
 
-.navbar {
-  grid-area: navbar;
-}
 .intuit {
   grid-area: intuit;
-}
-.icon-col {
-  grid-area: icon-col;
-}
-.form-col {
-  grid-area: form-col;
-}
-.footer {
-  grid-area: footer;
 }
 
 .grid-container {
@@ -39,17 +33,23 @@ body {
 }
 
 /* navbar starts here */
+
 /* *************************************************************************************** */
 .navbar {
+  grid-area: navbar;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  margin: 0px 30px;
+  margin: 0 30px;
 }
 
 .navbar > div {
   padding: 10px 5px;
+}
+
+.footer > span {
+  font-size: 12px;
 }
 
 .navbar > div > span {
@@ -59,7 +59,7 @@ body {
 .navbar > div > button {
   background: #0077c5;
   padding: 10px 20px;
-  color: #ffffff;
+  color: #fff;
   text-transform: capitalize;
   border: none;
   border-radius: 4px;
@@ -68,17 +68,19 @@ body {
 }
 
 /* intuit logo and icons starts here */
+
 /* ************************************************************************** */
 .intuit > img {
   height: 75px;
 }
 
 .icon-col {
+  grid-area: icon-col;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
-  color: eceef1;
+  color: #eceef1;
   font-size: 18px;
 }
 
@@ -87,8 +89,10 @@ body {
 }
 
 /* form starts here */
+
 /* ******************************************************************** */
 .form-col {
+  grid-area: form-col;
   display: flex;
   justify-content: center;
 }
@@ -100,14 +104,16 @@ body {
   width: 380px;
 }
 
-.form-col > form > div > p {
-  margin: 0px;
-}
-
 .form-col > form > div > p.create {
   font-size: 30px;
   font-weight: 300;
-  padding: 10px 0px;
+  padding: 10px 0;
+}
+
+.footer > p > a {
+  font-size: 12px;
+  color: #4c4c4c;
+  text-decoration: none;
 }
 
 .form-col > form > div > a {
@@ -137,8 +143,8 @@ body {
 
 .form-col > form > div > button {
   width: 100%;
-  padding: 15px 0px;
-  margin: 20px 0px;
+  padding: 15px 0;
+  margin: 20px 0;
   border: 1px solid #d8d8d8;
   border-radius: 5px;
   text-transform: capitalize;
@@ -148,12 +154,20 @@ body {
   font-size: 15px;
 }
 
+.footer > p {
+  margin-bottom: 0;
+}
+
 .form-col > form > p {
   text-align: center;
   font-size: 12px;
   font-style: italic;
   color: gray;
-  margin: 0px;
+  margin: 0;
+}
+
+.form-col > form > div > p {
+  margin: 0;
 }
 
 .form-col > form > div.form-footer {
@@ -169,27 +183,15 @@ body {
 }
 
 /* footer starts here */
+
 /* *************************************************************************** */
 
 .footer {
-  margin: 0px;
+  grid-area: footer;
+  margin: 0;
   padding-bottom: 15px;
-}
-
-.footer > p {
-  margin-bottom: 0px;
-}
-
-.footer > p > a {
-  font-size: 12px;
-  color: #4c4c4c;
-  text-decoration: none;
 }
 
 .footer > p > a:hover {
   text-decoration: underline;
-}
-
-.footer > span {
-  font-size: 12px;
 }
