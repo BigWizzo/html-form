@@ -1,0 +1,28 @@
+{
+  "name": "html-form",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigWizzo/html-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BigWizzo/html-form/issues"
+  },
+  "homepage": "https://github.com/BigWizzo/html-form#readme",
+  "dependencies": {
+    "lighthouse": "^6.2.0"
+  },
+  "devDependencies": {
+    "hint": "^6.0.7"
+  }
+}
