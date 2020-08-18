@@ -66,3 +66,24 @@ body {
     cursor: pointer;
     font-weight: 500;
   }
+
+  /* intuit logo and icons starts here */
+
+/* ************************************************************************** */
+.intuit > img {
+    height: 75px;
+  }
+  
+  .icon-col {
+    grid-area: icon-col;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: #eceef1;
+    font-size: 18px;
+  }
+  
+  .icon-col > img {
+    height: 23px;
+  }
