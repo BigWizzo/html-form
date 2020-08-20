@@ -16,6 +16,7 @@ body {
 
 .intuit {
   grid-area: intuit;
+  text-align: center;
 }
 
 .grid-container {
@@ -72,6 +73,7 @@ body {
 /* ************************************************************************** */
 .intuit > img {
   height: 75px;
+
 }
 
 .icon-col {
@@ -190,6 +192,7 @@ body {
   grid-area: footer;
   margin: 0;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 .footer > p > a:hover {

@@ -46,10 +46,10 @@ html5validator index.html
 ```
 ## Authors
 
-👤 **Author1**
+👤 **Okusa J. Robert**
 - Github: [@ojrdev](https://github.com/ojrdev)
 
-👤 **Author2**
+👤 **Willard F. Nyamunokora**
 - Github: [@bigwizzo](https://github.com/bigwizzo)
 
 ## 🤝 Contributing
