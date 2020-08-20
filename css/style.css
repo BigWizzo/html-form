@@ -1,0 +1,199 @@
+body {
+  background: #eceef1;
+  color: #4c4c4c;
+  font-family:
+    "AvenirNext",
+    Avenir,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+/* Grid container starts here */
+
+/* *********************************************************************************** */
+
+.intuit {
+  grid-area: intuit;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "navbar"
+    "intuit"
+    "icon-col"
+    "form-col"
+    "footer";
+}
+
+.grid-container > div {
+  text-align: center;
+}
+
+/* navbar starts here */
+
+/* *************************************************************************************** */
+.navbar {
+  grid-area: navbar;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 30px;
+}
+
+.navbar > div {
+  padding: 10px 5px;
+}
+
+.footer > span {
+  font-size: 12px;
+}
+
+.navbar > div > span {
+  font-size: 12px;
+}
+
+.navbar > div > button {
+  background: #0077c5;
+  padding: 10px 20px;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* intuit logo and icons starts here */
+
+/* ************************************************************************** */
+.intuit > img {
+  height: 75px;
+}
+
+.icon-col {
+  grid-area: icon-col;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  color: #525457;
+  font-size: 18px;
+}
+
+.icon-col > img {
+  height: 23px;
+}
+
+/* form starts here */
+
+/* ******************************************************************** */
+.form-col {
+  grid-area: form-col;
+  display: flex;
+  justify-content: center;
+}
+
+.form-col > form {
+  padding: 15px 30px;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  width: 380px;
+}
+
+.form-col > form > div > p.create {
+  font-size: 30px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.footer > p > a {
+  font-size: 12px;
+  color: #4c4c4c;
+  text-decoration: none;
+}
+
+.form-col > form > div > a {
+  font-size: 12px;
+}
+
+.form-col > form > div > label {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.form-col > form > div > input {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+}
+
+.form-col > form > div > p.phone-terms {
+  font-size: 10px;
+  text-align: left;
+}
+
+.form-col > form > div > button {
+  width: 100%;
+  padding: 15px 0;
+  margin: 20px 0;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  text-transform: capitalize;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #5476c9 0%, #0077c5 100%);
+  color: white;
+  font-size: 15px;
+}
+
+.footer > p {
+  margin-bottom: 0;
+}
+
+.form-col > form > p {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: gray;
+  margin: 0;
+}
+
+.form-col > form > div > p {
+  margin: 0;
+}
+
+.form-col > form > div.form-footer {
+  background: #eceef1;
+  margin: 20px -30px -15px -30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-col > form > div.form-footer > p {
+  font-size: 10px;
+  color: #8d9096;
+}
+
+/* footer starts here */
+
+/* *************************************************************************** */
+
+.footer {
+  grid-area: footer;
+  margin: 0;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.footer > p > a:hover {
+  text-decoration: underline;
+}
